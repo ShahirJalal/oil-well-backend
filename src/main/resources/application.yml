@@ -21,5 +21,5 @@ server:
 
 # JWT Configuration
 jwt:
-  secret: secureJwtSecretKeyForOilCalcBackendApplicationMustBeVeryLongAndSecure
-  expiration: 86400000  # 24 hours in milliseconds
+  secret: ${JWT_SECRET:secureJwtSecretKeyForOilCalcBackendApplicationMustBeVeryLongAndSecure}
+  expiration: 86400000
