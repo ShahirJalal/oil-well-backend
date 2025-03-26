@@ -227,12 +227,10 @@ public class CalculationService {
                 .linePullAtSurface(h27)
                 .wellheadPress(h28)
                 .pressControlFriction(h29)
-                .dragOrLiftOnLine(u39)
-                .dragOrLiftOnTools(u37)
+                .lineForce(u39)
+                .toolForce(u37)
                 .positiveDownwardForces(e32)
                 .counterForces(h32)
-                .dragOnLinePositive(u39 > 0)
-                .dragOnToolsPositive(u37 > 0)
                 .build();
     }
 }

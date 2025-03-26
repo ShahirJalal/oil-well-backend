@@ -21,10 +21,8 @@ public class CalculationResult {
     private double linePullAtSurface;
     private double wellheadPress;
     private double pressControlFriction;
-    private double dragOrLiftOnLine;
-    private double dragOrLiftOnTools;
+    private double lineForce;
+    private double toolForce;
     private double positiveDownwardForces;
     private double counterForces;
-    private boolean dragOnLinePositive;
-    private boolean dragOnToolsPositive;
 }
